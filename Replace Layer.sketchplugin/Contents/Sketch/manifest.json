@@ -19,7 +19,7 @@
     "title" : "Replace Layer"
   },
   "identifier" : "me.daneden.sketch.replace-layer",
-  "version" : "1.0",
+  "version" : "1.1",
   "description" : "Replace selected layer(s) with copied content/layer(s)",
   "authorEmail" : "dan.eden@me.com",
   "name" : "Replace Layer"

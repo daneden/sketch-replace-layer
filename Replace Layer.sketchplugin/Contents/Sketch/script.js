@@ -22,8 +22,9 @@ var replaceSelectedLayerWithPasteboard = function(context) {
       } else {
           for(var i = 0; i < currentSelection.length; i++) {
               currentSelection[i].setIsSelected(true)
-              deleteAction.doPerformAction(null)
           }
+
+          deleteAction.doPerformAction(null)
           doc.showMessage("Replaced layer")
       }
   }

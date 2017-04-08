@@ -1,0 +1,26 @@
+{
+  "author" : "Daniel Eden",
+  "commands" : [
+    {
+      "script" : "script.js",
+      "name" : "Replace Layer",
+      "shortcut" : "cmd shift r",
+      "handlers" : {
+        "run" : "replaceSelectedLayerWithPasteboard"
+      },
+      "identifier" : "replaceLayer"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "replaceLayer"
+    ],
+    "isRoot": true,
+    "title" : "Replace Layer"
+  },
+  "identifier" : "me.daneden.sketch.replace-layer",
+  "version" : "1.0",
+  "description" : "Replace selected layer(s) with copied content/layer(s)",
+  "authorEmail" : "dan.eden@me.com",
+  "name" : "Replace Layer"
+}

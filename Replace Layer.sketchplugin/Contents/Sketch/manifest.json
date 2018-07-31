@@ -1,26 +1,28 @@
 {
-  "author" : "Daniel Eden",
-  "commands" : [
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
     {
-      "script" : "script.js",
-      "name" : "Replace Layer",
-      "shortcut" : "cmd alt r",
-      "handlers" : {
-        "run" : "replaceSelectedLayerWithPasteboard"
-      },
-      "identifier" : "replaceLayer"
+      "identifier": "replace-layer-id",
+      "name": "Replace Layer",
+      "script": "replaceLayer.js",
+      "shortcut": "cmd alt r"
     }
   ],
-  "menu" : {
-    "items" : [
-      "replaceLayer"
+  "menu": {
+    "title": "Replace Layer",
+    "items": [
+      "replace-layer-id"
     ],
-    "isRoot": true,
-    "title" : "Replace Layer"
+    "isRoot": true
   },
-  "identifier" : "me.daneden.sketch.replace-layer",
-  "version" : "1.1",
-  "description" : "Replace selected layer(s) with copied content/layer(s)",
-  "authorEmail" : "dan.eden@me.com",
-  "name" : "Replace Layer"
+  "identifier": "me.daneden.sketch.replace-layer",
+  "version": "2.0",
+  "description": "Replace selected layer(s) with copied content/layer(s)",
+  "authorEmail": "dan.eden@me.com",
+  "name": "Replace Layer",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Daniel Eden"
 }

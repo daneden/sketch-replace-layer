@@ -1,0 +1,25 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "identifier": "replace-layer-id",
+      "name" : "Replace Layer",
+      "script": "./replaceLayer.js",
+      "shortcut" : "cmd alt r"
+    }
+  ],
+  "menu": {
+    "title": "Replace Layer",
+    "items": [
+      "replace-layer-id"
+    ],
+    "isRoot": true
+  },
+  "identifier" : "me.daneden.sketch.replace-layer",
+  "version" : "2.0",
+  "description" : "Replace selected layer(s) with copied content/layer(s)",
+  "authorEmail" : "dan.eden@me.com",
+  "name" : "Replace Layer"
+}

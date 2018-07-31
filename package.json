@@ -1,6 +1,6 @@
 {
   "name": "sketch-replace-layer",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "engines": {
     "sketch": ">=3.0"
   },
@@ -21,5 +21,7 @@
   "devDependencies": {
     "@skpm/builder": "^0.5.2"
   },
-  "author": "Daniel Eden <dan.eden@me.com>"
+  "author": "Daniel Eden <dan.eden@me.com>",
+  "description": "Replace selected layer(s) with copied content/layer(s)",
+  "repository": "https://github.com/daneden/sketch-replace-layer"
 }

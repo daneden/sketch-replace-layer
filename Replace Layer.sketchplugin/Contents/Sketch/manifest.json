@@ -18,11 +18,11 @@
     "isRoot": true
   },
   "identifier": "me.daneden.sketch.replace-layer",
-  "version": "2.0",
   "description": "Replace selected layer(s) with copied content/layer(s)",
   "authorEmail": "dan.eden@me.com",
   "name": "Replace Layer",
+  "version": "2.0.0",
   "disableCocoaScriptPreprocessor": true,
-  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "appcast": "https://raw.githubusercontent.com/daneden/sketch-replace-layer/master/.appcast.xml",
   "author": "Daniel Eden"
 }

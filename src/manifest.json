@@ -18,7 +18,6 @@
     "isRoot": true
   },
   "identifier" : "me.daneden.sketch.replace-layer",
-  "version" : "2.0",
   "description" : "Replace selected layer(s) with copied content/layer(s)",
   "authorEmail" : "dan.eden@me.com",
   "name" : "Replace Layer"
